@@ -1,7 +1,6 @@
 [![Latest Stable Version](https://poser.pugx.org/vivomedia/neos-countup/v/stable)](https://packagist.org/packages/vivomedia/neos-countup)
 [![Total Downloads](https://poser.pugx.org/vivomedia/neos-countup/downloads)](https://packagist.org/packages/vivomedia/neos-countup)
 [![License](https://poser.pugx.org/vivomedia/neos-countup/license)](https://packagist.org/packages/vivomedia/neos-countup)
-[![Maintainability](https://api.codeclimate.com/v1/badges/0610a409218268b1f7e5/maintainability)](https://codeclimate.com/github/VIVOMEDIA/neos-countup/maintainability)
 
 # VIVOMEDIA Count Up Plugin for Neos CMS
 
