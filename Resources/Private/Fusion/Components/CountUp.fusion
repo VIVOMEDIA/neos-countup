@@ -1,0 +1,22 @@
+prototype(VIVOMEDIA.CountUp:CountUpComponent) < prototype(Neos.Fusion:Component) {
+
+	class = Neos.Fusion:RawArray {
+		style = 'h1'
+		countup = 'countup'
+	}
+
+	start = ${0}
+	end = ${0}
+	duration = ${0}
+
+	renderer = afx`
+		<span
+			class={props.class}
+			data-start={props.start}
+			data-end={props.end}
+			data-prefix={props.prefix}
+			data-suffix={props.suffix}
+			data-duration={props.duration}
+		>{props.prefix}{props.end}{props.suffix}</span>
+	`
+}

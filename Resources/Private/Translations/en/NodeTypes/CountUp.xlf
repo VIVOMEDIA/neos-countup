@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="VIVOMEDIA.CountUp" source-language="en" datatype="plaintext">
+		<body>
+			<trans-unit id="ui.label" xml:space="preserve">
+				<source>Count up</source>
+			</trans-unit>
+			<trans-unit id="groups.animation" xml:space="preserve">
+				<source>Animation</source>
+			</trans-unit>
+			<trans-unit id="groups.content" xml:space="preserve">
+				<source>Content</source>
+			</trans-unit>
+			<trans-unit id="properties.start" xml:space="preserve">
+				<source>Start number</source>
+			</trans-unit>
+			<trans-unit id="properties.end" xml:space="preserve">
+				<source>End number</source>
+			</trans-unit>
+			<trans-unit id="properties.duration" xml:space="preserve">
+				<source>Duration in ms</source>
+			</trans-unit>
+			<trans-unit id="properties.prefix" xml:space="preserve">
+				<source>Prefix</source>
+			</trans-unit>
+			<trans-unit id="properties.suffix" xml:space="preserve">
+				<source>Suffix</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

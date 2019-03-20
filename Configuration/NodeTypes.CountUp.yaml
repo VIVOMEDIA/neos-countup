@@ -1,0 +1,62 @@
+'VIVOMEDIA.CountUp:CountUp':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Neos.NodeTypes:TextMixin': true
+
+  ui:
+    icon: fas fa-sort-numeric-down
+    label: i18n
+    group: general
+    inspector:
+      groups:
+        animation:
+          label: i18n
+          position: 10
+          icon: fas fa-film
+        content:
+          icon: fas fa-align-justify
+          label: i18n
+          position: 50
+
+  properties:
+    start:
+      type: integer
+      defaultValue: 0
+      ui:
+        label: i18n
+        inspector:
+          group: animation
+
+    end:
+      type: integer
+      defaultValue: 100
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: animation
+    duration:
+      type: integer
+      defaultValue: 2000
+      ui:
+        label: i18n
+        inspector:
+          group: animation
+
+
+    prefix:
+      type: string
+      defaultValue: ''
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: content
+    suffix:
+      type: string
+      defaultValue: ''
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: content

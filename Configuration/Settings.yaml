@@ -1,0 +1,15 @@
+Neos:
+  Neos:
+    fusion:
+      autoInclude:
+        VIVOMEDIA.CountUp: true
+    userInterface:
+      translation:
+        autoInclude:
+          VIVOMEDIA.CountUp:
+            - 'NodeTypes/*'
+
+VIVOMEDIA:
+  CountUp:
+    javascript:
+      include: true

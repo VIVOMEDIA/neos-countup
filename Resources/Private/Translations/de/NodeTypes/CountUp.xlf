@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="VIVOMEDIA.CountUp" source-language="en" datatype="plaintext" target-language="de">
+		<body>
+			<trans-unit id="ui.label" xml:space="preserve">
+				<source>Count up</source>
+				<target xml:lang="de" state="translated"></target>
+			</trans-unit>
+			<trans-unit id="groups.animation" xml:space="preserve">
+				<source>Animation</source>
+				<target xml:lang="de" state="translated">Animation</target>
+			</trans-unit>
+			<trans-unit id="groups.content" xml:space="preserve">
+				<source>Inhalt</source>
+				<target xml:lang="de" state="translated"></target>
+			</trans-unit>
+			<trans-unit id="properties.start" xml:space="preserve">
+				<source>Start</source>
+				<target xml:lang="de" state="translated">Start</target>
+			</trans-unit>
+			<trans-unit id="properties.end" xml:space="preserve">
+				<source>End</source>
+				<target xml:lang="de" state="translated">Ende</target>
+			</trans-unit>
+			<trans-unit id="properties.duration" xml:space="preserve">
+				<source>Duration in ms</source>
+				<target xml:lang="de" state="translated">Dauer in ms</target>
+			</trans-unit>
+			<trans-unit id="properties.prefix" xml:space="preserve">
+				<source>Prefix</source>
+				<target xml:lang="de" state="translated">Prefix</target>
+			</trans-unit>
+			<trans-unit id="properties.suffix" xml:space="preserve">
+				<source>Suffix</source>
+				<target xml:lang="de" state="translated">Suffix</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

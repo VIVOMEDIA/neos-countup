@@ -1,0 +1,23 @@
+include: **/*.fusion
+
+
+prototype(Neos.Neos:Page) {
+	body {
+		javascripts.countUp = Neos.Fusion:Array {
+			lib = Neos.Fusion:Tag {
+				tagName = 'script'
+				src = Neos.Fusion:ResourceUri {
+					path = 'resource://VIVOMEDIA.CountUp/Public/JavaScript/countUpJs/countUp.js'
+				}
+			}
+			integration = Neos.Fusion:Tag {
+				tagName = 'script'
+				src = Neos.Fusion:ResourceUri {
+					path = 'resource://VIVOMEDIA.CountUp/Public/JavaScript/countUp.js'
+				}
+			}
+			@if.includeJavascript = ${Configuration.setting('VIVOMEDIA.CountUp.javascript.include') == true}
+		}
+	}
+}
+

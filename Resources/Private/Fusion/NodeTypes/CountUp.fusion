@@ -1,0 +1,19 @@
+prototype(VIVOMEDIA.CountUp:CountUp) < prototype(Neos.Neos:ContentComponent) {
+
+	class = Neos.Fusion:RawArray {
+		countup-nodetype = 'countup-nodetype'
+	}
+
+	renderer = afx`
+		<div class={props.class}>
+			<VIVOMEDIA.CountUp:CountUpComponent
+				start={q(node).property('start') ? q(node).property('start') : 0}
+				end={q(node).property('end') ? q(node).property('end') : 0}
+				duration={q(node).property('duration')}
+				prefix={q(node).property('prefix')}
+				suffix={q(node).property('suffix')}
+			/>
+			<Neos.Neos:Editable property="text" />
+		</div>
+	`
+}
