@@ -6,7 +6,9 @@
 # VIVOMEDIA Count Up Plugin for Neos CMS
 
 ## What it provides
-Node types for Neos CMS to easily add CountUp animated numerical facts. You can configure start and end of the animation and their duration.   
+Node types for Neos CMS to easily add CountUp animated numerical facts. You can configure start and end of the animation and their duration.
+
+The CountUp animation starts as far as the element reaches the viewport of the user.
 
 ## Dependencies
 * jQuery 2.x needs to be installed. But can easily be replaced by other frameworks. 
@@ -50,7 +52,7 @@ The AFX component `VIVOMEDIA.CountUp:CountUpComponent` allows you to integrate t
 
 
 
-#Copyright
+# Copyright
 
 **countUp.js**
 
