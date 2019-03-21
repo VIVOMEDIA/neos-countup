@@ -16,7 +16,9 @@ var isInViewport = function (elem) {
 
 $( document ).ready(function() {
     $( document ).scroll(checkVisibility).resize(checkVisibility);
-    $('.countup').hide();
+    $('.countup').css('visibility', 'hidden');
+    checkVisibility();
+
     function checkVisibility() {
         $('.countup:not(.started)').each(function (index, el) {
             if (isInViewport(el)) {
@@ -27,7 +29,7 @@ $( document ).ready(function() {
                     suffix: $el.data('suffix'),
                     duration: $el.data('duration') ? $el.data('duration') / 1000 : 2
                 });
-                $(el).addClass('started').show();
+                $(el).addClass('started').css('visibility', 'visible');
                 demo.start();
             }
         });
