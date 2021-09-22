@@ -90,7 +90,8 @@
             "Neos.Flow-20190515215000",
             "Neos.NodeTypes-20190917101945",
             "Neos.NodeTypes-20200120114136",
-            "VIVOMEDIA.Bootstrap-20200126150900"
+            "VIVOMEDIA.Bootstrap-20200126150900",
+            "Neos.Flow-20200813181400"
         ]
     }
 }
