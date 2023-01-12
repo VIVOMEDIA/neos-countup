@@ -4,22 +4,22 @@
 		<body>
 			<trans-unit id="ui.label" xml:space="preserve">
 				<source>Count up</source>
-				<target xml:lang="de" state="translated"></target>
+				<target xml:lang="de" state="translated">Zähler</target>
 			</trans-unit>
 			<trans-unit id="groups.animation" xml:space="preserve">
 				<source>Animation</source>
 				<target xml:lang="de" state="translated">Animation</target>
 			</trans-unit>
 			<trans-unit id="groups.content" xml:space="preserve">
-				<source>Inhalt</source>
-				<target xml:lang="de" state="translated"></target>
+				<source>Content</source>
+				<target xml:lang="de" state="translated">Inhalt</target>
 			</trans-unit>
 			<trans-unit id="properties.start" xml:space="preserve">
-				<source>Start</source>
+				<source>Start number</source>
 				<target xml:lang="de" state="translated">Start</target>
 			</trans-unit>
 			<trans-unit id="properties.end" xml:space="preserve">
-				<source>End</source>
+				<source>End number</source>
 				<target xml:lang="de" state="translated">Ende</target>
 			</trans-unit>
 			<trans-unit id="properties.duration" xml:space="preserve">
