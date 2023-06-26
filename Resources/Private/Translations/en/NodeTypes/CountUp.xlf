@@ -26,6 +26,9 @@
 			<trans-unit id="properties.suffix" xml:space="preserve">
 				<source>Suffix</source>
 			</trans-unit>
+			<trans-unit id="properties.separator" xml:space="preserve">
+				<source>Separator</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

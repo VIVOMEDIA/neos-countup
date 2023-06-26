@@ -12,6 +12,7 @@ prototype(VIVOMEDIA.CountUp:CountUp) < prototype(Neos.Neos:ContentComponent) {
 				duration={q(node).property('duration')}
 				prefix={q(node).property('prefix')}
 				suffix={q(node).property('suffix')}
+				separator={q(node).property('separator')}
 			/>
 			<Neos.Neos:Editable property="text" />
 		</div>

@@ -34,6 +34,10 @@
 				<source>Suffix</source>
 				<target xml:lang="de" state="translated">Suffix</target>
 			</trans-unit>
+			<trans-unit id="properties.separator" xml:space="preserve">
+				<source>Separator</source>
+				<target xml:lang="de" state="translated">Tausendertrenner</target>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

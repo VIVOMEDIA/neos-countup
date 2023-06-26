@@ -38,7 +38,12 @@ You can use the NodeType `VIVOMEDIA.CountUp:CountUp` to add the CountUp function
 The AFX component `VIVOMEDIA.CountUp:CountUpComponent` allows you to integrate the CountUp functionality to your own packages.
 
 
-
+# Upgrade from 1.0
+As the thousend separator default `,` has been removed and made configurable, you need to run the node migration if you want to keep the `,` as separator.
+```
+# Migrate 1000000 => 1,000,000
+./flow node:migrate 20230626175747
+```
 
 
 # Screenshots

@@ -27,7 +27,8 @@ $( document ).ready(function() {
                     startVal: $el.data('start'),
                     prefix: $el.data('prefix'),
                     suffix: $el.data('suffix'),
-                    duration: $el.data('duration') ? $el.data('duration') / 1000 : 2
+                    duration: $el.data('duration') ? $el.data('duration') / 1000 : 2,
+                    separator: $el.data('separator') ? $el.data('separator') : ''
                 });
                 $(el).addClass('started').css('visibility', 'visible');
                 demo.start();
