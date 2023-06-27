@@ -39,10 +39,13 @@ The AFX component `VIVOMEDIA.CountUp:CountUpComponent` allows you to integrate t
 
 
 # Upgrade from 1.0
-As the thousend separator default `,` has been removed and made configurable, you need to run the node migration if you want to keep the `,` as separator.
+As the thousend separator default `,` has been removed and made configurable, you need to run the node migration if you want to keep the `,` as separator or want to use a empty separator.
 ```
 # Migrate 1000000 => 1,000,000
 ./flow node:migrate 20230626175747
+
+# Migrate 1000000 => 1000000
+./flow node:migrate 20230627125821
 ```
 
 
