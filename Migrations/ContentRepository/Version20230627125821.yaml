@@ -1,0 +1,30 @@
+up:
+  comments: 'Migrate separator to empty'
+  migration:
+    -
+      filters:
+        -
+          type: 'NodeType'
+          settings:
+            nodeType: 'VIVOMEDIA.CountUp:CountUp'
+      transformations:
+        -
+          type: 'AddNewProperty'
+          settings:
+            newPropertyName: 'separator'
+            value: ''
+
+down:
+  comments: 'Revert coloring bright to white'
+  migration:
+    -
+      filters:
+        -
+          type: 'NodeType'
+          settings:
+            nodeType: 'VIVOMEDIA.CountUp:CountUp'
+      transformations:
+        -
+          type: 'RemoveProperty'
+          settings:
+            property: 'separator'
