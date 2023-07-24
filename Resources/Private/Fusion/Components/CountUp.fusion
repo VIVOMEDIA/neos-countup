@@ -9,6 +9,8 @@ prototype(VIVOMEDIA.CountUp:CountUpComponent) < prototype(Neos.Fusion:Component)
 	end = ${0}
 	duration = ${0}
 	separator = ${','}
+	decimal = ${'.'}
+	decimalPlaces = ${0}
 
 	renderer = afx`
 		<span
@@ -19,6 +21,8 @@ prototype(VIVOMEDIA.CountUp:CountUpComponent) < prototype(Neos.Fusion:Component)
 			data-suffix={props.suffix}
 			data-duration={props.duration}
 			data-separator={props.separator}
+			data-decimal={props.decimal}
+			data-decimal-places={props.decimalPlaces}
 		>{props.prefix}{props.end}{props.suffix}</span>
 	`
 }

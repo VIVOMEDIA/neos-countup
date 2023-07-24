@@ -28,7 +28,9 @@ $( document ).ready(function() {
                     prefix: $el.data('prefix'),
                     suffix: $el.data('suffix'),
                     duration: $el.data('duration') ? $el.data('duration') / 1000 : 2,
-                    separator: $el.data('separator') ? $el.data('separator') : ''
+                    separator: $el.data('separator') ? $el.data('separator') : '',
+                    decimal: $el.data('decimal') ? $el.data('decimal') : '',
+                    decimalPlaces: $el.data('decimal-places') ? $el.data('decimal-places') : 0,
                 });
                 $(el).addClass('started').css('visibility', 'visible');
                 demo.start();

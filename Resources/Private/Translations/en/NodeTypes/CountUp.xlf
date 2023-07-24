@@ -11,11 +11,20 @@
 			<trans-unit id="groups.content" xml:space="preserve">
 				<source>Content</source>
 			</trans-unit>
+			<trans-unit id="groups.format" xml:space="preserve">
+				<source>Format</source>
+			</trans-unit>
 			<trans-unit id="properties.start" xml:space="preserve">
 				<source>Start number</source>
 			</trans-unit>
+			<trans-unit id="properties.start.ui.help.message" xml:space="preserve">
+				<source>The number must be in format ###.## e.g 100.00.</source>
+			</trans-unit>
 			<trans-unit id="properties.end" xml:space="preserve">
 				<source>End number</source>
+			</trans-unit>
+			<trans-unit id="properties.end.ui.help.message" xml:space="preserve">
+				<source>The number must be in format ###.## e.g 100.00.</source>
 			</trans-unit>
 			<trans-unit id="properties.duration" xml:space="preserve">
 				<source>Duration in ms</source>
@@ -25,6 +34,15 @@
 			</trans-unit>
 			<trans-unit id="properties.suffix" xml:space="preserve">
 				<source>Suffix</source>
+			</trans-unit>
+			<trans-unit id="properties.separator" xml:space="preserve">
+				<source>Separator</source>
+			</trans-unit>
+			<trans-unit id="properties.decimal" xml:space="preserve">
+				<source>Decimal</source>
+			</trans-unit>
+			<trans-unit id="properties.decimalPlaces" xml:space="preserve">
+				<source>Decimal places</source>
 			</trans-unit>
 			<trans-unit id="properties.separator" xml:space="preserve">
 				<source>Separator</source>

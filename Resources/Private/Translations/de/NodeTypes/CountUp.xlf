@@ -14,13 +14,25 @@
 				<source>Content</source>
 				<target xml:lang="de" state="translated">Inhalt</target>
 			</trans-unit>
+			<trans-unit id="groups.format" xml:space="preserve">
+				<source>Format</source>
+				<target xml:lang="de" state="translated">Format</target>
+			</trans-unit>
 			<trans-unit id="properties.start" xml:space="preserve">
 				<source>Start number</source>
 				<target xml:lang="de" state="translated">Start</target>
 			</trans-unit>
+			<trans-unit id="properties.start.ui.help.message" xml:space="preserve">
+				<source>The number must be in format ###.## e.g 100.00.</source>
+				<target xml:lang="de" state="translated">Die Zahl muss im Format ###.## angegeben werden. Z.B. 100.00.</target>
+			</trans-unit>
 			<trans-unit id="properties.end" xml:space="preserve">
 				<source>End number</source>
 				<target xml:lang="de" state="translated">Ende</target>
+			</trans-unit>
+			<trans-unit id="properties.end.ui.help.message" xml:space="preserve">
+				<source>The number must be in format ###.## e.g 100.00.</source>
+				<target xml:lang="de" state="translated">Die Zahl muss im Format ###.## angegeben werden. Z.B. 100.00.</target>
 			</trans-unit>
 			<trans-unit id="properties.duration" xml:space="preserve">
 				<source>Duration in ms</source>
@@ -33,6 +45,18 @@
 			<trans-unit id="properties.suffix" xml:space="preserve">
 				<source>Suffix</source>
 				<target xml:lang="de" state="translated">Suffix</target>
+			</trans-unit>
+			<trans-unit id="properties.separator" xml:space="preserve">
+				<source>Separator</source>
+				<target xml:lang="de" state="translated">Tausendertrenner</target>
+			</trans-unit>
+			<trans-unit id="properties.decimal" xml:space="preserve">
+				<source>Decimal</source>
+				<target xml:lang="de" state="translated">Dezimaltrenner</target>
+			</trans-unit>
+			<trans-unit id="properties.decimalPlaces" xml:space="preserve">
+				<source>Decimal places</source>
+				<target xml:lang="de" state="translated">Dezimalstellen</target>
 			</trans-unit>
 			<trans-unit id="properties.separator" xml:space="preserve">
 				<source>Separator</source>

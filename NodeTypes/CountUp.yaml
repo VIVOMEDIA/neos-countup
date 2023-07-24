@@ -17,24 +17,38 @@
           icon: fas fa-align-justify
           label: i18n
           position: 50
+        format:
+          icon: fas fa-paragraph
+          label: i18n
+          position: 60
+          collapsed: true
 
   properties:
     start:
-      type: integer
-      defaultValue: 0
+      type: string
+      defaultValue: '0'
+      validation:
+        Neos.Neos/Validation/RegularExpressionValidator:
+          regularExpression: "/^[0-9]+(\\.[0-9]{1,5})?$/"
       ui:
         label: i18n
         inspector:
           group: animation
-
+        help:
+          message: i18n
     end:
-      type: integer
-      defaultValue: 100
+      type: string
+      defaultValue: '100'
+      validation:
+        Neos.Neos/Validation/RegularExpressionValidator:
+          regularExpression: "/^[0-9]+(\\.[0-9]{1,5})?$/"
       ui:
         label: i18n
         reloadIfChanged: true
         inspector:
           group: animation
+        help:
+          message: i18n
     duration:
       type: integer
       defaultValue: 2000
@@ -60,6 +74,7 @@
         reloadIfChanged: true
         inspector:
           group: content
+
     separator:
       type: string
       defaultValue: ''
@@ -67,4 +82,27 @@
         label: i18n
         reloadIfChanged: true
         inspector:
-          group: content
+          group: format
+
+    decimal:
+      type: string
+      defaultValue: ''
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: format
+    decimalPlaces:
+      type: integer
+      defaultValue: 0
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: format
+          editor: 'Neos.Neos/Inspector/Editors/RangeEditor'
+          editorOptions:
+            min: 0
+            max: 5
+            step: 1
+
