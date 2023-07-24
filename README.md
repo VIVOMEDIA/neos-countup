@@ -37,6 +37,18 @@ You can use the NodeType `VIVOMEDIA.CountUp:CountUp` to add the CountUp function
 ## AFX Component
 The AFX component `VIVOMEDIA.CountUp:CountUpComponent` allows you to integrate the CountUp functionality to your own packages.
 
+## Features
+* Animation
+  * Start number
+  * End number
+  * Duration in ms
+* Content
+  * Prefix
+  * Suffix
+* Format 
+  * Thousand separator
+  * Decimal separator
+  * Decimal places
 
 # Upgrade from 1.0
 As the thousend separator default `,` has been removed and made configurable, you need to run the node migration if you want to keep the `,` as separator or want to use a empty separator.
